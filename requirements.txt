@@ -6,4 +6,4 @@ xgboost==0.90
 streamlit==0.71.0
 matplotlib==3.3.2
 scikit_learn==0.23.2
-
+pmdarima==1.2.0
