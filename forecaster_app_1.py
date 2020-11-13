@@ -21,6 +21,9 @@ import pickle
 import matplotlib.pyplot as plt
 import seaborn as sns
 import pmdarima
+import six
+import sys
+sys.modules['sklearn.externals.six'] = six
 from sktime.forecasting.all import plot_series
 import time
 st.beta_set_page_config(layout="wide")
