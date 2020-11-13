@@ -20,10 +20,10 @@ import streamlit as st
 import pickle
 import matplotlib.pyplot as plt
 import seaborn as sns
+import pmdarima
 from sktime.forecasting.all import plot_series
 import time
 st.beta_set_page_config(layout="wide")
-from io import StringIO
 
 
 st.sidebar.title("Upload Your Sales History")
